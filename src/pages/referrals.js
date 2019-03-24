@@ -63,7 +63,7 @@ About Our Referrals Program
   <p>Investment Education</p>
   </div>
   </div>
-  <div  id="early" style={{width:'423px',  height:'58px', borderRadius:'15px', border:'1px solid #31C6AC',boxSizing:'border-box', padding:'0 11px',
+  <div  id="early" style={{width:'423px',maxWidth:'150%',  height:'58px', borderRadius:'15px', border:'1px solid #31C6AC',boxSizing:'border-box', padding:'0 11px',
            background:'rgba(137, 191, 232, 0.1)', flexDirection:'row',marginTop: '32px',justifyContent:'flex-end', alignItems:'center', display:'flex' }}>
               <input  className="getin" type="text" name="early" placeholder="Email Address" style={{width: '300px',paddingRight:'10px',paddingLeft:'10px',
             fontFamily: 'Banana Grotesk',
