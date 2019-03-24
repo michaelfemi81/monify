@@ -1,0 +1,24 @@
+@font-face {
+  font-family: "Banana Grotesk";
+  src: url("../fonts/Banana_Grotesk/BananaGrotesk-Light.otf");
+  }
+  @font-face {
+    font-family: "Banana Grotesk Bold";
+    src: url("../fonts/Banana_Grotesk/BananaGrotesk-Bold.otf");
+    }
+html {
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+body {
+  margin: 0 !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  padding:0 !important;
+}
+@media only screen and (max-width: 480px) {
+  html {
+    font-size: 100%;
+  }
+}

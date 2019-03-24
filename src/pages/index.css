@@ -1,0 +1,97 @@
+
+  ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color:'#80909A';
+    opacity: 1; /* Firefox */
+  }
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color:'#80909A';
+  }
+  
+  ::-ms-input-placeholder { /* Microsoft Edge */
+    color:'#80909A';
+  }
+  .back{
+    background: #EBF3FB;
+    background-image:url(../images/back.png);
+    background-repeat:no-repeat;
+    background-position: center 100%;
+    background-size: 100% ;
+    color:#FFF;
+  
+    padding-top: 50px;
+    max-width: 100vw;
+    overflow: hidden;
+    position:'relative'
+
+
+  
+  }
+  @media only screen and (max-width: 1000px) {
+    .top{
+      top:-25vw !important
+    }
+  }
+  @media only screen and (max-width: 900px) {
+    .top{
+      top:-20vw !important
+    }
+    .head{
+        font-size: 31px !important;
+        padding-top: 70px !important;
+       width: 80% !important;
+        
+    }
+    .back{
+      padding-bottom: 400px;
+    }
+     .padr{
+        margin-right: 10px !important;
+    }
+ 
+     
+  }
+  @media only screen and (max-width: 650px) {
+    .top{
+      top:-20vw !important
+    }
+  
+  }
+  @media only screen and (max-width: 580px) {
+    .head{
+        font-size: 30px !important;
+        padding-top: 80px !important;
+        
+    }
+    .back{
+      padding-bottom: 900px;
+    }
+    .onebase{
+        padding-top: 60px !important;
+    }
+    .padr{
+        margin-right: 40px !important;
+    }
+  
+
+  }
+  @media only screen and (max-width: 500px) {
+    .top{
+      top:-20vw !important
+    }
+    .getin{
+        width: 60% !important;
+        
+    }
+    .getbut{
+        width: 40% !important;
+        font-size: 11px !important;
+    }
+    
+     .padr{
+         margin-right: 15px !important;
+     }
+     .onebase{
+         padding-top: 60px !important;
+     }
+     
+  }
