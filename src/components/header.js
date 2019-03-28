@@ -89,12 +89,12 @@ boxShadow: '0px 9px 16px rgba(0, 0, 0, 0.1)',
 borderRadius: '15px',
 padding:'27px 19px'
 }}>
-<div className="links" style={{ textAlign:'center', color:'#80909A', fontSize:'16px', fontFamily:'Banana Grotesk Medium',  marginBottom:'25px'
+<div className="links" style={{ textAlign:'left', color:'#80909A', fontSize:'16px', fontFamily:'Banana Grotesk Medium',  marginBottom:'25px'
  }}>
 <Link to="/about/" style={{color:'#80909A',textDecoration:'none',}}>  About Monify</Link>
 
 </div>
-<div className="links"  style={{ textAlign:'center', color:'#80909A', fontSize:'16px', fontFamily:'Banana Grotesk Medium',  marginBottom:'25px' }}>
+<div className="links"  style={{ textAlign:'left', color:'#80909A', fontSize:'16px', fontFamily:'Banana Grotesk Medium',  marginBottom:'25px' }}>
 <Link to="/referrals/" style={{color:'#80909A',textDecoration:'none',}}>   Referrals </Link>
 </div>
 
