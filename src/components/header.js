@@ -45,7 +45,9 @@ class Header extends React.PureComponent{
       display:'flex',justifyContent:'center', alignItems:'center', margin:'0 auto'}}>
  <div style={{width: '154px', height:'30', }}>
 
-<Link to="/" style={{color:'#80909A',textDecoration:'none'}}>    <Logo /></Link>
+<Link to="/" style={{color:'#80909A',textDecoration:'none'}}>   
+<div className="logo"></div>
+</Link>
 
 </div>
 <div className="main" style={{width: 'calc( 90% - 154px)', height: '100%', display:'flex',
