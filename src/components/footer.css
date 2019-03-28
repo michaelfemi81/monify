@@ -15,15 +15,11 @@
 }
 
 .aa{
-    padding-left: 250px !important;
+    padding-left: 180px !important;
 
 }
 @media only screen and (max-width: 1000px) { 
-    .join{
-        font-size: 30px !important;
-        padding-left: 10px;
-         padding-right: 15px !important;
-    }
+    
     .lrub{
         left: -700px !important;
     }
@@ -34,14 +30,69 @@
         padding-left: 140px !important;
     
     }
+    .abc{
+        margin: 0 !important;
+        padding-left: 35px !important;
+        margin-top: 23px !important;
+
+    }
     }
 
-@media only screen and (max-width: 900px) { 
-    .join{
-        font-size: 30px !important;
-        padding-left: 10px;
-         padding-right: 15px !important;
+@media only screen and (max-width: 900px) {
+    .inputbox{
+        flex-direction: column !important;
+        height: 98px !important;
+        margin-top: 0px !important;
+    } 
+    .aa{
+        flex-direction: column !important;
+
     }
+    .aa > div{
+        margin-bottom: 45px !important;
+    }
+    .a2{
+        min-height: 2px;
+        height: auto !important;
+    }
+    .a2 > h3{
+        margin-top: 42.29px
+    }
+    .abc{
+        margin: 0 !important;
+        padding-left: 80px !important;
+        margin-top: 23px !important;
+
+    
+
+    }
+    .getin{
+        width: 315px !important;
+        min-width: 100% !important;
+        height: 49px !important;
+        text-align: center;
+    }
+    .getbut{
+       width: 100% !important;
+       min-width: 100% !important;
+       margin-bottom: 9px !important;
+       font-size: 16px !important
+    }
+    .join{
+        line-height: normal !important;
+        font-size: 46px !important;
+        font-family: 'Banana Grotesk Bold' !important;
+        padding: 0 !important;
+        padding-right: 0;
+        width:100%; 
+        text-align: center;
+       
+
+    }
+    .joinus{
+        flex-direction: column !important;
+    }
+    
     .lrub{
         left: -730px !important;
     }
@@ -55,21 +106,15 @@
     }
 
 @media only screen and (max-width: 700px) { 
-.join{
-    font-size: 20px !important;
-    padding-left: 10px;
-    padding-right: 15px !important;
-}
-.lrub{
-    left: -790px !important;
-}
-.rrub{
-    right: -790px !important;
-}
-.aa{
-    padding-left: 50px !important;
+    .abc{
+        margin: 0 !important;
+        padding-left: 40px !important;
+        margin-top: 23px !important;
 
-}
+    
+
+    }
+
 }
 
 
@@ -78,7 +123,7 @@
 
 @media only screen and (max-width: 500px) { 
     .join{
-        font-size: 20px !important;
+ 
         padding-left: 10px;
          padding-right: 15px !important;
     }

@@ -1,18 +1,22 @@
 .links{
 
 }
+@media only screen and (max-width: 900px) {
+   .main{
+     display: none !important;
+   }
+   .header{
+     height: 63px !important;
+   }
+ }
 @media only screen and (max-width: 700px) { 
-    .links{
-      font-size: 12px !important
-    }
+  
     .header{
         padding:'0' !important;
     }
 }
 @media only screen and (max-width: 500px) { 
-    .links{
-      font-size: 10px !important
-    }
+ 
     .header{
         padding:'0' !important;
     }

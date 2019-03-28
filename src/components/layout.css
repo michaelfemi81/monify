@@ -6,6 +6,14 @@
     font-family: "Banana Grotesk Bold";
     src: url("../fonts/Banana_Grotesk/BananaGrotesk-Bold.otf");
     }
+    @font-face {
+      font-family: "Banana Grotesk Medium";
+      src: url("../fonts/Banana_Grotesk/BananaGrotesk-Medium.otf");
+      }
+      @font-face {
+        font-family: "Banana Grotesk Regular";
+        src: url("../fonts/Banana_Grotesk/BananaGrotesk-Regular.otf");
+        }
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;

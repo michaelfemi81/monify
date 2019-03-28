@@ -17,17 +17,17 @@ const Logo = () => (
   <StaticQuery
     query={graphql`
     query {
-        placeholderImage: file(relativePath: { eq: "phone1.png" }) {
+        placeholderImage: file(relativePath: { eq: "mask1.png" }) {
           childImageSharp {
-            fluid(maxWidth: 200) {
+            fluid(maxWidth: 334) {
               ...GatsbyImageSharpFluid
             }
           }
         }
       }
     `}
-    render={data => <Img fluid={data.placeholderImage.childImageSharp.fluid} style={{width: '18vw'//, minWidth:'150px'
-    ,position:'absolute', right:'7vw',top:'1vw', flex:1,transform: 'rotate(-30deg)'}} />}
+    render={data => <Img fluid={data.placeholderImage.childImageSharp.fluid} style={{width: '26vw', maxWidth:'334px'
+    ,position:'absolute', left:'0vw',bottom:'0vw', flex:1,}} />}
   />
 )
 export default Logo

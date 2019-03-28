@@ -26,7 +26,7 @@ const Logo = () => (
         }
       }
     `}
-    render={data => <Img fluid={data.placeholderImage.childImageSharp.fluid} style={{width: '97px', height:'97px'}} />}
+    render={data => <Img fluid={data.placeholderImage.childImageSharp.fluid} style={{width: '97px', height:'97px', display:'block', margin:'0 auto'}} />}
   />
 )
 export default Logo
